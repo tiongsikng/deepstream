@@ -12,5 +12,5 @@ The scripts are divided so that the they can be edited accordingly in case of an
 2. Install TensorRT 5.0: Run `bash tensorrt.sh` Other versions of TensorRT can be downloaded [here](https://developer.nvidia.com/nvidia-tensorrt-5x-download). The tensorrt.sh script is based on the installation guide found [here](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html).
 3. Install other prerequisistes: Run `bash prereq.sh`. This script will install the prerequisites needed, and also will untar the binaries.tbz2 file at the same time. Take note to make sure the binaries.tbz2 file is in the same directory as well. 
 
-Docker
+## Docker
 Run `bash docker.sh` to install NVIDIA Docker's container and run DeepStream container.
